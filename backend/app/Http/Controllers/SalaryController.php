@@ -58,7 +58,7 @@ class SalaryController extends Controller
 
         //Diferença média entre os valores da folha de referência 
         //E os valores da folha enviada pela empresa especializada
-        $diferenca_media =  $salario_errado/count($salarios_corretos);
+        $diferenca_media =  !empty($salarios_corretos) ? $salario_errado/count($salarios_corretos) : 0;
 
         return json_encode([
             "colaboradores_salario_errado" => $resultado_conferencia,
