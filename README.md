@@ -5,12 +5,11 @@
 ## 🖥️ Projeto
 
 Página web para exibição do relatório sobre os salários dos colaboradores. O front-end foi densevolvido em Vue.js e o backend em Laravel 9.
-## Funcionalidades 🛠️
 
 ## 📰 Screenshots
 
 <div align="center">
-  <img alt="Tela Start" title="#Tela Start" src="./frontend/screenshot/relatorio.png" width=200 />
+  <img alt="Tela Start" title="#Tela Start" src="./frontend/screenshot/relatorio.png" />
 </div>
 
 ## ⛏️Tecnologias
@@ -20,7 +19,8 @@ Página web para exibição do relatório sobre os salários dos colaboradores. 
 
 ## 💿Executado o projeto
 
-Para executar o projeto é necessário anter ter instalado em sua máquina o [Nodejs](https://nodejs.org/en/), o gerenciador de pacotes [npmjs](https://www.npmjs.com/) e o [Composer](https://getcomposer.org/download/)
+Para executar o projeto é necessário anter ter instalado em sua máquina o [Nodejs](https://nodejs.org/en/), 
+o gerenciador de pacotes [npmjs](https://www.npmjs.com/) e o [Composer](https://getcomposer.org/download/)
 
 ```bash
 
@@ -48,4 +48,6 @@ $ npm install
 $ npm run dev
 
 # A aplicação irá iniciar em <http://localhost:3000>
+# Para ver o relatório acesse <http://localhost:3000/relatorio>
+# Ou clique em Relatório no menu do topo da página em <http://localhost:3000>
 ```
