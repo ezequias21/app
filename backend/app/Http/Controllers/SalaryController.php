@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class SalaryController extends Controller
 {
     public function relatorio(){
+        
         $salarios_corretos = [
             ['id' => 1, 'nome'=> 'Franklim Delano', 'salario'=> 1200],
             ['id' => 2, 'nome'=> 'Paulo Freire', 'salario'=> 1300],
@@ -27,6 +28,7 @@ class SalaryController extends Controller
         $soma_empresa_especializada = 0;
         $salario_errado = 0;
         $resultado_conferencia= [];
+
         foreach($salarios_corretos as $key => $salario_correto){
 
             //Realiza a diferença entre o valor do salário real e o valor do
@@ -65,6 +67,5 @@ class SalaryController extends Controller
             "diferenca_valor_total" => $diferenca_valor_total,
             "diferenca_media" => $diferenca_media
         ]);
-        
     }
 }
